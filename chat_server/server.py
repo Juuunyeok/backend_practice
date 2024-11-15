@@ -532,7 +532,6 @@ def main(args):
 
     for client in clients:
         client.sock.close()
-        print(f'접속 중인 클라이언트 {client} 소켓 close() 완료')
 
 if __name__ == '__main__':
     app.run(main)
